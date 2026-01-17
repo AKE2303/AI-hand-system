@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: monospace;
+  color: #00ff88;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+#salom {
+  font-size: 50px;
+  display: none;
+  margin: 15px 0;
+  color: #00ffd5;
+}
+
+#terminal {
+  display: none;
+  background: #000;
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 15px auto;
+  text-align: left;
+  height: 200px;
+  overflow: hidden;
+}
+
+video, canvas {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  h1 { font-size: 36px; }
+  #salom { font-size: 60px; }
+}
